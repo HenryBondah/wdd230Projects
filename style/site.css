@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Sofia+Sans&family=Sofia+Sans+Condensed&display=swap');
+
+body{
+    font-family: 'PT Serif', serif;
+    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+header{
+    display :flex ;
+    align-items: center;
+    background-color: rgb(39, 156, 219);
+}
+header div:nth-child(2){
+    width: 100%;
+}
+header h1{
+    font-family: 'PT Serif', serif;
+    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    text-align: center;
+}
+header img{
+    margin: 10px;
+    margin-left: 40px;
+}
+header img{
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+    border-radius: 20%;
+}
+main h2{
+    font-family: 'PT Serif', serif;
+    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    margin: 20px;
+    
+}
+main {
+    height: 300px;
+    overflow-y: scroll;
+}
+#content{
+    width: 800px;
+    margin: 0 auto;
+}
+li {
+    font-family: 'PT Serif', serif;
+    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    display: flex;
+    background-color: rgb(114, 198, 243);
+    width: 650px;
+    height: 25px;
+    border: 10px rgb(39, 156, 219);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+    font-size:x-large;
+}
+footer{
+    padding: 2px;
+    background-color: rgb(39, 156, 219);
+}
+footer p{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
